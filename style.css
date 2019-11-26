@@ -1,0 +1,304 @@
+@charset "utf-8";
+html,body {
+    width:100%;
+    height: 100%;
+}
+body {
+    font:16px/1.4 "Nanum Gothic",sans-serif;
+    color:#333;
+}
+ul {list-style:none;}
+
+a,a:link{
+    text-decoration:none;
+    color:inherit;
+}
+
+.notext {
+    display: none;
+}
+
+p {
+    font-weight: 800;
+}
+
+.logo {
+    overflow: hidden;
+    float: right;
+    z-index: 9999; 
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    background-color: white;
+}
+
+.topnav {
+    overflow: hidden;
+    float: right;
+    margin-left: 800px;
+    z-index: 9999; 
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    background-color: white;
+    font-weight: 800;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: green;
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.factcheck {
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+    z-index: 9999;
+}
+
+.fact {
+    position: relative;
+    text-align: center;
+    margin-top:10%;
+    z-index: 9998;
+    margin-left: 0%;
+}
+
+.map img {
+    position: absolute;
+    z-index: 9000;
+    /* margin-top: 50px; */
+    margin-left: 350px;
+}
+
+.local_1 {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -450px;
+    z-index:9001 ;
+}
+
+.local_2 {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -250px;
+    z-index:9001 ;
+}
+
+.local_3 {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -5px;
+    z-index:9001 ;
+}
+
+.percent_1 {
+    margin-top: 500px;
+    margin-left: 30%;
+}
+
+.percent_2 {
+    float: left;
+    margin-left: 35%;
+}
+
+.percent_3{ 
+    float: left;
+    margin-left: 50px;
+}
+
+.box {
+    float: left;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.lotte {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.lotte_left {
+    margin-top: -450px;
+    margin-left: 300px;
+    position: absolute;
+
+}
+
+.lotte_right {
+    margin-top: -150px;
+    margin-left: 900px;
+    position: absolute;
+}
+
+.structer {
+    text-align: center;
+    font-size: 15px;
+}
+
+.fact_2 {
+    margin-top: 300px;
+    /* text-align: center; */
+}
+
+.fact2_left {
+    float: left;
+}
+
+.fact2_left img {
+    display: block;
+}
+
+.fact2_right {
+    float: right;
+    /* margin-left: -px; */
+}
+
+.fact2_right img {
+    display: block;
+    margin-top: 50px;
+}
+
+.graph {
+    margin-top:  600px;
+    margin-left: 8%;
+}
+
+.fact_3 {
+    /* display: inline; */
+    margin-top:  300px;
+    display: inline-block;
+}
+
+.fact3_left {
+    float: left;
+}
+
+.fact3_right {
+    float: right;
+}
+
+.fact3_right img{ 
+    margin-top: -350px;
+}
+
+.fact_tree {
+    margin-top:  300px;
+    text-align: center;
+}
+
+.tree_left {
+    float: left;
+    margin-left: 25%;
+    /* text-align: center; */
+}
+
+.tree_right {
+    /* float: right; */
+    float: left;
+    margin-left: 150px;
+}
+
+.news {
+    margin-top:  300px;
+    text-align: center;
+}
+
+.news_left {
+    float: left;
+    /* display: block;  */
+    margin-left: 8%;
+}
+
+.news_text {
+    float: left;
+    /* display: block;  */
+    margin-left: 5%;
+}
+
+.story {
+    margin-top:  300px;
+    text-align: center;
+}
+
+.story_player {
+    margin-top: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.history {
+    margin-top: 150px;
+}
+
+.brnad {
+    margin-top: 500px;
+}
+
+.brand_left {
+    float: left;
+    margin-left: 150px;
+}
+
+.brand_right {
+    float: left;
+}
+
+.prize {
+    margin-top: 400px;
+    text-align: center;
+}
+
+.prize_slide {
+    text-align: center;
+}
+
+.certify {
+    margin-top: 400px;
+    text-align: center;
+}
+
+.certify_slide {
+    text-align: center;
+}
+
+.people {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.people_img {
+    text-align: center;
+    margin-top: 80px;
+    display: block;
+    margin-left: 42%;
+    /* position: relative; */
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+/**fade in**/
+
+.fadeinleft {
+    opacity:0;
+    margin-left:-300px;    
+    max-width:100%;
+}
